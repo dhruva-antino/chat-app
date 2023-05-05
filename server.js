@@ -34,6 +34,6 @@ server.on("connection", (socket) => {
   // console.log('clients - ', clients)
 });
 
-server.listen(1024, () => {
+server.listen(3000, () => {
   console.log("opened server on ", server.address());
 });
